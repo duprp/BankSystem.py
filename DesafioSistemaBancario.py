@@ -76,6 +76,10 @@ def extrato():
             print("nenhum depósito foi realizado")
         for numero, deposito in deposito_extrato.items():
             print(f"- {numero} - DEPOSITOU R${deposito:.2f}")
+    elif opcao == 0:
+            main()
+    else
+        print("Valor invalido tente novamente")
 def main():
     while True:
         print("""
