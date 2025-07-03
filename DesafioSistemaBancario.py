@@ -78,7 +78,7 @@ def extrato():
             print(f"- {numero} - DEPOSITOU R${deposito:.2f}")
     elif opcao == 0:
             main()
-    else
+    else:
         print("Valor invalido tente novamente")
 def main():
     while True:
